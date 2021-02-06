@@ -16,12 +16,6 @@ class App extends Component {
       searchField:"",
     };
   }
-  
-handleClick1(){
-  console.log("button 1 click")
-}
-
-handleClick3 = () => console.log("button 3 clicked")
 
   componentDidMount(){
     fetch("https://jsonplaceholder.typicode.com/users")
